@@ -21,7 +21,7 @@ app.get("/", (_req: Request, res: Response) => {
 });
 
 app.get("/" , (_request, response) => {
-  response.send("ok")
+  response.send("okay")
 })
 // app.post("/foods", async (req, res) => {
 
