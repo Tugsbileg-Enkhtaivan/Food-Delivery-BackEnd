@@ -1,4 +1,4 @@
-import express, { Application, Request, Response } from "express";
+import express, { Application, request, Request, response, Response } from "express";
 import dotenv from "dotenv";
 import { Food } from "./schema /Food";
 import { foodRouter } from "./routes/food";
@@ -20,6 +20,9 @@ app.get("/", (_req: Request, res: Response) => {
   res.json(Food);
 });
 
+app.get("/" , (_request, response) => {
+  response.send("ok")
+})
 // app.post("/foods", async (req, res) => {
 
 // });
