@@ -14,7 +14,7 @@ const app: Application = express();
 app.use(express.json());
 
 app.use("/api/v1/foods", foodRouter);
-app.use("/api/v1/categorys", categoryRouter);
+app.use("/api/v1/categories", categoryRouter);
 
 app.get("/", (_req: Request, res: Response) => {
   res.json(Food);
