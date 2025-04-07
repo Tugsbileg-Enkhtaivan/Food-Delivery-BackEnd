@@ -24,8 +24,7 @@ app.get("/" , (_request, response) => {
   response.send("okay")
 })
 
-// zailasdo,aosmd
-// asdpiansudnasdimoa
+// zl2
 
 // app.post("/foods", async (req, res) => {
 
