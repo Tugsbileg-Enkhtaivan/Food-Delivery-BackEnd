@@ -23,16 +23,14 @@ app.get("/", (_req: Request, res: Response) => {
 app.get("/" , (_request, response) => {
   response.send("okay")
 })
+
+// zailasdo,aosmd
+// asdpiansudnasdimoa
+
 // app.post("/foods", async (req, res) => {
 
 // });
 
-// app.listen(port, async () => {
-//   const connectDb = async () => {
-//     try {
-//       await mongoose.connect(
-//         "mongodb+srv://tugsuindawork:i3rD7VwbcYs6O1ZN@cluster0.7qddbcz.mongodb.net/"
-//       );
 
 //       console.log("Success");
 //     } catch (error) {
