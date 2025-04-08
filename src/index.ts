@@ -24,8 +24,11 @@ app.get("/" , (_request, response) => {
   response.send("okay")
 })
 
+<<<<<<< HEAD
 // zl2
 
+=======
+>>>>>>> 6c7f2f5 (fixed)
 // app.post("/foods", async (req, res) => {
 
 // });
